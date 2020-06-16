@@ -12,7 +12,7 @@ import TabelaProdutos from './components/repeticao/TabelaProdutos'
 import ParOuImpar from './components/condicional/ParOuImpar'
 import NotaUsuario from './components/condicional/NotaUsuario'
 import DiretaPai from './components/comunicacao/DiretaPai'
-
+import IndiretaPai from './components/comunicacao/IndiretaPai'
 
 import './App.css'
 
@@ -25,8 +25,12 @@ export default _ => //forma mais enxuta de uma função
 
         <div className="Cards">
 
+            <Cards titulo="#10 - Comunicação Indireta" color="#8BAD39">
+                <IndiretaPai></IndiretaPai>
+            </Cards>
+
             <Cards titulo="#09 - Comunicação Direta" color="#59323C">
-               <DiretaPai></DiretaPai>
+                <DiretaPai></DiretaPai>
             </Cards>
 
             <Cards titulo="#08 - Renderização condicional" color="#982395">
