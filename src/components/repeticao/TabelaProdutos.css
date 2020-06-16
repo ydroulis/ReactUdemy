@@ -1,0 +1,30 @@
+table{
+    width: 100%;
+    border: 3px solid #3A9AD9;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead{
+    background-color: #3A9AD9;
+    border: 1px solid #3A9AD9;
+}
+
+tr{
+    border: 1px solid #3A9AD9;
+}
+
+table .par{
+    background-color: #ddd;
+}
+
+table .impar{
+    background-color: #ccc;
+}
+
+td{
+    border: 1px solid #3A9AD9;
+
+}
+
